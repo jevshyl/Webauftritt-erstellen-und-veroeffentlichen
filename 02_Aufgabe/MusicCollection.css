@@ -1,0 +1,41 @@
+body{
+
+    background-color: rgb(179, 183, 188);
+
+}
+
+header{
+ height: auto;
+ position: relative;
+}
+
+.first-row, .second-row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2em;
+    padding: 1em;
+}
+
+.songs{
+    grid-row: 1 / span 2;
+    text-align: center;
+}
+
+
+
+.image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10%;
+    
+}
+
+main{
+    margin-top: 50px;
+}
+
+.logo{
+
+    width: 10%;
+}
